@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>CORVUS — ordo · memoria · forma</title>
+  <meta name="description" content="CORVUS — platforma idei, artykułów i wydawnictw. Kruk nie krzyczy — obserwuje.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f4f2ee;
+      color: #1e1e1e;
+      line-height: 1.7;
+    }
+    header, footer {
+      padding: 1.5rem 3rem;
+      border-bottom: 1px solid #b8b3a9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    footer {
+      border-top: 1px solid #b8b3a9;
+      border-bottom: none;
+      font-size: 0.9rem;
+      color: #6b6b6b;
+      justify-content: center;
+      flex-direction: column;
+      gap: .5rem;
+    }
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: inherit;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .logo {
+      letter-spacing: .35em;
+      font-size: 1.4rem;
+    }
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 3rem;
+      background: url("assets/img/corvus-symbol.png") no-repeat center;
+      background-size: 35%;
+    }
+    .hero blockquote {
+      background: rgba(244,242,238,0.9);
+      padding: 2rem;
+      font-size: 2rem;
+      font-style: italic;
+    }
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 5rem 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">CORVUS</div>
+  <nav>
+    <a href="artykuly.html">Artykuły</a>
+    <a href="ruch.html">Ruch</a>
+    <a href="ksiazki.html">Książki</a>
+    <a href="autor.html">Autor</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <blockquote>
+      Corvus non clamat — observat.<br>
+      <small>Kruk nie krzyczy — obserwuje.</small>
+    </blockquote>
+  </div>
+
+  <section>
+    <p>
+      CORVUS jest platformą idei powstałą z przekonania, że współczesność
+      cierpi nie na brak informacji, lecz na brak formy.
+    </p>
+    <p>
+      Publikujemy teksty filozoficzne, kulturowe i historyczne,
+      rozwijamy zaplecze wydawnicze oraz budujemy ruch oparty
+      na etosie porządku, pamięci i odpowiedzialności.
+    </p>
+  </section>
+</main>
+
+<footer>
+  CORVUS · ordo · memoria · forma  
+  <span>Kontakt: corvus.ordo.contact@proton.me</span>
+</footer>
+
+</body>
+</html>
